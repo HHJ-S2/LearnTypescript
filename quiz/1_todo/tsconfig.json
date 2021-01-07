@@ -1,0 +1,8 @@
+{
+  "compilerOptions": {
+    "allowJs": true,
+    "checkJs": true,
+    "noImplicitAny": true // any 타입 가능 or 불가능
+  },
+  "include": ["./src/**/*"]
+}
