@@ -40,7 +40,7 @@ function deleteTodo(index: number): void {
   todoItems.splice(index, 1);
 }
 
-function completeTodo(index: number, todo: object[]): void {
+function completeTodo(index: number, todo: Todo): void {
   todo.done = true; // 파라미터의 todo.done에 대한 type을 지정해주지 않으면 TS error
   todoItems.splice(index, 1, todo);
 }
